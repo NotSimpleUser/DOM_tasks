@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>DOCUMENT</title>
+ </head>
+ <body>
+      <ul id="list">
+        <li>User1</li>
+        <li>User2</li>
+        <li>User3</li>
+        <li>User4</li>
+        <li>User5</li>
+     </ul>
+     <script>
+       // let list = document.querySelector("#list");
+       // console.log(list.children[0], list.children[4], list.children[1], list.children[3], list.children[2]);
+
+
+
+       let list = document.querySelectorAll('.list li')[1].classList.add('listItem');
+       console.log(list.children[0], list.children[4], list.children[1], list.children[3], list.children[2]);
+     </script>
+ </body>
+</html>

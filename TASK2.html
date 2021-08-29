@@ -1,0 +1,27 @@
+<body>
+    <h1>I'am a big header!!!</h1>
+       <div id="myDiv">
+           <p>First paragraph</p>
+           <p>Second paragraph</p>
+           <p>Third paragraph</p>
+           <p>Fourth paragraph</p>
+       </div>
+       <ul id="myList">
+           <li>Make</li>
+           <li>me</li>
+           <li>horizontal!</li>
+       </ul>
+       <span>Make me invisible, please!</span>
+       <script>
+           let myDiv = document.querySelector("#myDiv");
+           myDiv.children[0].style.fontWeight = "bold";
+           myDiv.children[1].style.color = "#ff0000";
+           myDiv.children[2].style.textDecoration = "underline";
+           myDiv.children[3].style.fontStyle = "italic";
+
+           let h1=document.querySelector("h1").style["background-color"] = "#82ef7d";
+           myList.style.display = 'flex';
+           myList.style.listStyle = 'none';
+           let span=document.querySelector("span").style["display"] = "none";
+       </script>
+   </body>
